@@ -1,12 +1,40 @@
 #memo-container {
-    width: 150px;
-    border: 1px solid black;
-    
+ position: absolute;
+ left: 50%;
+  width: 150px;
+  border: 1px solid black;
+  bottom: 150px;
+  max-width: 400px;
+  background:#FCE4EC;
+  
+   
 
-    
-    
+     
+    }
+    body{
+      background: #fff;
+    }
+#wrapper {
+  position: absolute;
+  right: 30px;
+  bottom: 85px;
+  max-width: 400px;
+  background: #fff;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+  .haead-text{
+    line-height: 60px;
+    color: violet;
+    border-radius: 15px 15px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  }
+      
+
     
   
   
     /* */
-  }
+  
